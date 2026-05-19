@@ -1,0 +1,36 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/med.css">
+    <title>Meddle About</title>
+</head>
+<body>
+    <main>
+        <div><h1 id="primero"></h1></div>
+        <img id="gif1" src="fotos, gifs y audio/rezeee.gif" alt="reze" width="250px" height="250px" style="display: none;">
+        <img id="gif2" src="fotos, gifs y audio/reze_dance.gif" alt="chibi reze" width="250px" height="250px" style="display: none;">
+        <div><h1 id="all"></h1></div>
+        <h1 id="ultimaparte"></h1>
+        <button class="animacionboton" id="inicio" onclick="iniciar()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span style="position: relative; z-index: 1;">▶ Iniciar</span>
+        </button>
+        <button class="animacionboton" id="reinicio" onclick="reiniciar()" style="display: none;">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span style="position: relative; z-index: 1;">🔄 Reiniciar</span>
+        </button>
+        <audio id="audio" volume="0.9">
+            <source src="fotos, gifs y audio/meddle_about.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+    
+<script src="js/meddle.js"></script>
+</body>
+</html>
